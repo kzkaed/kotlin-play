@@ -36,6 +36,13 @@ fun main (args: Array<String>) {
 
  println(CentralPlace.meetsTarget(accuracy))
 
+ val getPerson = Person.PersonDirectory.forId(1)
+
+ println(getPerson)
+
+ val getOtherPerson = Person.forId(2)
+
+ println(getOtherPerson)
 
 
 
