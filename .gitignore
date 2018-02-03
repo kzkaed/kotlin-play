@@ -1,6 +1,7 @@
 
 ### Maven template
 target/
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -16,9 +17,13 @@ buildNumber.properties
 .idea
 .idea/*
 
-kotlindemo.iml
+
 
 .gitignore
 
 pom.xml
 src/
+
+!/src/
+!/pom.xml
+kotlindemo.iml
